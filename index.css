@@ -1,0 +1,54 @@
+body {
+    background: #bce2e8;
+    font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+h1 {
+    color: #698aab;
+    margin: 20px 10px;
+}
+div {
+    margin: 10px;
+}
+div.todo_list {
+    width: 600px;
+    background: white;
+    padding: 5px 20px;
+}
+p {
+    color: #84a2d4;
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+ul.todo {
+    color: black;
+}
+ul.done {
+    color: gray;
+}
+li {
+    border-top: solid 1px gray;
+    padding: 10px;
+}
+li:hover {
+    background: #84a2d4;
+    color: white;
+    text-decoration-line: underline;
+}
+input {
+    width: 500px;
+    margin: 0px 15px 0px 0px;
+    padding: 10px;
+    border: solid 1px #ccc;
+}
+button {
+    width: 100px;
+    height: 35px;
+    background: #84a2d4;
+    color: white;
+}
+button:hover {
+    font-weight: bold;
+}

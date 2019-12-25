@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>TodoApp</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+    <script type="text/javascript" src="out/production/TodoApp/lib/kotlin.js"></script>
+</head>
+<body>
+    <h1>Simple ToDo App</h1>
+    <div>
+        <input id="input" type="text" value="" placeholder="task name " />
+        <button id="button" type="button">ADD</button>
+    </div>
+    <div class="todo_list">
+        <p>ToDo</p>
+        <ul id="todo_ul" class="todo">
+            <li>今月の家賃を支払う</li>
+        </ul>
+    </div>
+    <div class="todo_list">
+        <p>Done</p>
+        <ul id="done_ul" class="done">
+            <li>洗剤を買う</li>
+            <li>本棚を掃除する</li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="out/production/TodoApp/TodoApp.js"></script>
+</body>
+</html>
