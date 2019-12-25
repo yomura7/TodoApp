@@ -1,6 +1,6 @@
 # Simple Todo App
 
-[![Simple Todo App](images/app_image.png)]
+![Simple Todo App](images/app_image.png)
 
 ## Usage
 
